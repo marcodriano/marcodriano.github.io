@@ -1,0 +1,111 @@
+html {background-image: linear-gradient(to top right, rgb(24, 81, 41), rgb(157, 244, 163), rgb(30, 51, 36));
+    height: 100%; width: 100%; border: none; display: flexbox;
+  }
+
+ 
+  * {
+    box-sizing: border-box;
+  }
+
+  .folhas {
+    background-image: url("/imagens/pngwing.com.png");
+
+    background-blend-mode: overlay;
+
+    background-repeat:round;
+
+    background-position: right top;
+
+    border:none;
+
+    background-size: contain;
+  
+    filter: opacity(0.45);
+  
+    height: 99.5%;
+
+    width: 100%;
+
+    position: absolute;
+  
+    transform: translate(-0.5%, -0.5%);
+
+    display: flexbox;
+    
+  }
+  
+  .frente {position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    transform: translate(0, -10%);
+    
+  }
+
+  h1 {background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.7); 
+    font-style: oblique;
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: 28px;
+    border:none;
+    transform: translate(0, 130px);
+    text-align: left;
+    padding-left: 150px;
+    margin-left: px;
+    border-radius: px; 
+    margin-right: px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 1px 2px 4px 2px #000;
+  }
+
+
+
+#selfie {border-style: ;
+border-color:;
+border-radius: 5px;
+padding-bottom: 0px;
+margin: 12px;
+margin-bottom: 40px;
+transform: translate(-4px, -18px);
+
+;
+}
+
+p {border-radius: 15px;
+  padding: 14px;
+  padding-right: 20px;
+  letter-spacing: 1px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  box-shadow: 1px 2px 4px 2px #000;
+  ;}
+
+#about{background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.7);
+    color: rgb(221, 216, 216);
+    font-weight:lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    border: none; 3px solid #f1f1f1;
+    width: 90%;
+    height: 99%;
+    transform: translate(65px, 125px);
+    }
+
+#contact {background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.7); 
+    color: rgb(205, 198, 198);
+    text-align: center;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none; 3px solid #f1f1f1;
+    font-size: 18px;
+    width: 90%;
+    height: 99%;
+    border-radius: 15px;
+    padding: 14px;
+    transform: translate(65px, 125px);
+    box-shadow: 1px 2px 4px 2px #000;}
